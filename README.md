@@ -62,3 +62,9 @@ $$
 > *"Security is an invariant, not a feature."*
 
 **◎** — target · **⟡** — theorem
+
+## 📂 Portfolio
+
+The complete implementation and experiments are available in the thesis portfolio repository:
+https://github.com/afuckingco/Adversarial-ML-for-IDS-Validation-via-Red-Team-Techniques
+

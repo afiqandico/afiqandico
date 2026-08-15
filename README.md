@@ -58,24 +58,6 @@ $$
 
 ---
 
-## ⚙️ Environment
-
-**Shell:** AFUCKINGCO v12.8.1 (Zsh) · Hermes AI · C2 framework
-
-```text
-nmap  subfinder  ffuf  httpx  nuclei  katana  mitmproxy  assetfinder
-bettercap  wireshark  john  hashcat  hydra  sqlmap  recon-ng
-```
-
----
-
-## 📊 Statistics
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=afuckingco&show_icons=true&theme=dark&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=afuckingco&layout=compact&theme=dark&hide_border=true)
-
----
-
 > *"Build systems. Break systems. Learn from both."*  
 > *"Security is an invariant, not a feature."*
 

@@ -19,7 +19,7 @@ $$
 
 | Project | Core Contribution | Performance |
 |---------|-------------------|-------------|
-| **VeriML** | Certified compilation via Gödel numbering: $\\#P = \prod_{i=1}^{n} p_i^{a_i}$ | 5 peer‑reviewed components (ICONIP '25 → USENIX '25) |
+| **AETG (this repo)** | Adaptive Evasion Traffic Generator: protocol‑aware, JA3/J4‑randomized, LinUCB‑driven adversarial traffic | recall **1.0** · evasion **0.0** (ML detector) · alert count **5** |
 | **TLS Adversarial Detector** | JA4 + HTTP/2 SETTINGS + timing jitter ($\sigma_t < 2$ ms, $H \approx 3.2$ bits) | AUC **0.94** · FPR **0.03** |
 | **Paper Replication (NIDS)** | FGSM attack: $x' = x + \epsilon \cdot \mathrm{sign}(\nabla_x J)$ on UNSW‑NB15 | Benign ACC **0.85** · Evasion **0.62** |
 
@@ -34,7 +34,7 @@ $$
 | **KL Divergence** | $D_{\text{KL}}(P \parallel Q) = \sum_{x \in \mathcal{X}} P(x) \log \frac{P(x)}{Q(x)}$ |
 | **FGSM Attack** | $x' = x + \epsilon \cdot \mathrm{sign}(\nabla_x J(\theta, x, y))$ |
 | **Cross‑Entropy Loss** | $\mathcal{L} = -\sum_{i=1}^{N} y_i \log \hat{y}_i$ |
-| **Gödel Numbering** | $\\#P = \prod_{i=1}^{n} p_i^{a_i}$ |
+| **Gödel Numbering** | `#P = ∏ p_i^{a_i}` (di mana `p_i` adalah bilangan prima ke‑i) |
 | **Batch Normalisation** | $\hat{x}^{(k)} = \frac{x^{(k)} - \mu_{\mathcal{B}}}{\sqrt{\sigma_{\mathcal{B}}^2 + \epsilon}}, \quad y^{(k)} = \gamma^{(k)} \hat{x}^{(k)} + \beta^{(k)}$ |
 | **Friis Transmission** | $P_r = P_t G_t G_r \left( \frac{\lambda}{4\pi r} \right)^2$ |
 | **Shannon‑Hartley** | $C = B \log_2 \left( 1 + \frac{S}{N} \right)$ |
@@ -58,12 +58,13 @@ $$
 
 ---
 
-> *"Build systems. Break systems. Learn from both."*
+> *"Build systems. Break systems. Learn from both."*  
 > *"Security is an invariant, not a feature."*
 
-**◎** — target · **⟡** — theorem
+**◎** — target · **⡇** — theorem
 
 ## 📂 Portfolio
 
-The complete implementation and experiments are available in the thesis portfolio repository:
-https://github.com/afuckingco/Adversarial-ML-for-IDS-Validation-via-Red-Team-Techniques
+The complete implementation and experiments are available in the thesis portfolio repository:  
+[https://github.com/afuckingco/Adversarial-ML-for-IDS-Validation-via-Red-Team-Techniques](https://github.com/afuckingco/Adversarial-ML-for-IDS-Validation-via-Red-Team-Techniques)
+```

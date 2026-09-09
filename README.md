@@ -9,7 +9,6 @@
 [![Security](https://img.shields.io/badge/Security-DevSecOps-8B00FF?style=for-the-badge&logo=github)](https://github.com/afiqandico/security-lab)
 [![Research](https://img.shields.io/badge/Research-Reproducible-C77DFF?style=for-the-badge&logo=bookstack)](https://orcid.org/0009-0002-1750-9551)
 [![NIDS](https://img.shields.io/badge/IDS-Evasion_R&D-5A189A?style=for-the-badge&logo=database)](https://github.com/afiqandico)
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 </div>
 
 ```text

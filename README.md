@@ -6,7 +6,7 @@
 ```
 
 [![Purple Team](https://img.shields.io/badge/Purple_Team-Adversarial_ML-B026FF?style=for-the-badge&logo=shield)](https://github.com/afiqandico)
-[![Security](https://img.shields.io/badge/Security-DevSecOps-8B00FF?style=for-the-badge&logo=github)](https://github.com/afiqandico/security-lab)
+[![Security](https://img.shields.io/badge/Security-DevSecOps-8B00FF?style=for-the-badge&logo=github)](https://github.com/afiqandico)
 [![Research](https://img.shields.io/badge/Research-Reproducible-C77DFF?style=for-the-badge&logo=bookstack)](https://orcid.org/0009-0002-1750-9551)
 [![NIDS](https://img.shields.io/badge/IDS-Evasion_R&D-5A189A?style=for-the-badge&logo=database)](https://github.com/afiqandico)
 </div>
@@ -45,8 +45,7 @@
 
 | Repo | Operation | Stack |
 |---|---|---|
-| [**security-lab**](https://github.com/afiqandico/security-lab) | Unified CLI `seclab`: secret scanner (Go, <2.5MB binary), Dockerfile linter, log anonymizer, CI security scanner, authorized-use pentest framework, 25-gate research workbench | Go · Python · Shell · Docker |
-| **research** *(private)* | Skripsi S1 + thesis portfolio S2 + riset lanjutan (sign-language AI, eksperimen LSTM/GRU, GIS, ML bisnis) | Python · PyTorch · JS |
+| **research** *(private)* | Semua riset, tool & proyek: skripsi S1, thesis S2, security CLI (`seclab` + workbench ANF), sign-language AI, eksperimen LSTM/GRU, GIS, ML bisnis & proyek klien | Python · PyTorch · Go · Shell · JS |
 
 > Sub-projects live in each repo's own README; public repos are deliberately consolidated so every folder carries its docs + license.
 

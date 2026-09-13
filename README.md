@@ -46,8 +46,7 @@
 | Repo | Operation | Stack |
 |---|---|---|
 | [**security-lab**](https://github.com/afiqandico/security-lab) | Unified CLI `seclab`: secret scanner (Go, <2.5MB binary), Dockerfile linter, log anonymizer, CI security scanner, authorized-use pentest framework, 25-gate research workbench | Go · Python · Shell · Docker |
-| [**portfolio**](https://github.com/afiqandico/portfolio) | AI/ML/research/web: sign-language AI, LSTM/GRU drift experiments, ML for business (fraud, RFM, sentiment), GIS & web | Python · PyTorch · Astro · JS |
-| **Adversarial-ML-for-IDS** *(private)* | S2 thesis: adversarial ML for IDS validation via red-team techniques | Python |
+| **research** *(private)* | Skripsi S1 + thesis portfolio S2 + riset lanjutan (sign-language AI, eksperimen LSTM/GRU, GIS, ML bisnis) | Python · PyTorch · JS |
 
 > Sub-projects live in each repo's own README; public repos are deliberately consolidated so every folder carries its docs + license.
 

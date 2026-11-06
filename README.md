@@ -33,11 +33,11 @@ regenerate every table).
 ## Selected work
 
 **[anf-cyber-shell](https://github.com/afiqandico/anf-cyber-shell)** — zsh framework
-for authorised security research. One dispatcher over ~20 external security CLIs
-(recon, OSINT, triage, C2-detection analytics, repo hygiene), workspace-scoped
-artefacts, a JSONL audit log, and *GuardFall v2* — a command canonicaliser that
-rejects 8 classes of shell-injection and destructive patterns before passthrough
-execution. 3,111 lines in a single zsh module, 116 subcommand functions; `make verify`
+for authorised security research. One dispatcher over 16 external security CLIs
+(nmap, httpx, nuclei, ffuf, subfinder, amass, nikto, whatweb, gobuster, sqlmap-free
+recon, whois, dig, yara, suricata, jq, curl), workspace-scoped artefacts, a JSONL
+audit log, and *GuardFall v2* — a command canonicaliser that rejects shell-injection
+and destructive patterns before passthrough execution. 3,111 lines in a single zsh module, 116 subcommand functions; `make verify`
 runs 15 checks (`PASS=15 FAIL=0` locally; 14 pass + 1 skipped in CI, where one check
 needs a tool the runner does not have). MIT.
 

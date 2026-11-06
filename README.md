@@ -7,7 +7,7 @@ for detection work, and I try to be precise about what my numbers actually prove
 
 ## About
 
-- **B.Comp.Sc. (S1), Computer Science** — ITB STIKOM Bali. GPA **3.34**, **144 credits**.
+- **S.Kom. / B.Comp.Sc. — Information Systems (Enterprise Systems)**, Institut Teknologi dan Bisnis STIKOM Bali. GPA **3.34/4.00**, **144 credits** (NIM 190030591). Thesis on campus-management optimisation treated as classification.
 - **M.Comp.Sc. (S2) in Cyber Security** — starting **February 2027**.
 - Based in Bali, Indonesia. Working in Indonesian and English.
 

@@ -22,10 +22,10 @@ an attacker can actually do on a wire. My work evaluates detectors against evasi
 that remain valid at the protocol and traffic level, and reports the gap between
 feature-space and problem-space results.
 
-> **Status (2026-11): submitted to Elsevier JISA and rejected.** The rejection is the
-> current state of the record; I am not calling it "under review" or "accepted". The
-> manuscript is being reworked for a different venue, and the preprint is still
-> unposted. When the status changes again I will state it with the submission ID.
+> **Status (2026-11):** desk-rejected by Elsevier JISA on scope grounds (September 2026 —
+> editorial prescreen, no reviewers involved), then resubmitted to *Computers & Security*
+> (Elsevier) as manuscript **COSE-D-26-05839**; no decision yet. The preprint is still
+> unposted. Rejections are reported as rejections, with the journal named.
 
 Related threads: detection engineering (Suricata/Zeek rules, lab traffic capture) and
 reproducibility of ML experiments (fixed seeds, versioned data, one command to

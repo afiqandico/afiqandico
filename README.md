@@ -22,9 +22,10 @@ an attacker can actually do on a wire. My work evaluates detectors against evasi
 that remain valid at the protocol and traffic level, and reports the gap between
 feature-space and problem-space results.
 
-> Manuscript **in preparation** — not submitted, not under review, not accepted. When any
-> of that changes I will state it with the submission ID. I would rather write
-> "in preparation" than imply a status the record cannot back up.
+> **Status (2026-11): submitted to Elsevier JISA and rejected.** The rejection is the
+> current state of the record; I am not calling it "under review" or "accepted". The
+> manuscript is being reworked for a different venue, and the preprint is still
+> unposted. When the status changes again I will state it with the submission ID.
 
 Related threads: detection engineering (Suricata/Zeek rules, lab traffic capture) and
 reproducibility of ML experiments (fixed seeds, versioned data, one command to
@@ -61,6 +62,16 @@ repository and therefore cannot be regenerated from it.
 **LaTeX book project** *(in progress)* — long-form technical writing authored as LaTeX
 source rather than a word processor, so the manuscript stays diffable, version-controlled,
 and buildable from a clean checkout. No link yet; it is not finished.
+
+## Teaching
+
+**Mini-SOC module for SMK (vocational high school), network security track** — written,
+not yet delivered, so there are no student outcomes to report. It ships as a five-part
+package (module text, a 14-slide deck, student worksheet, rubric, and a lab) rather than
+slides alone. The lab is the part I care about: students get 248 synthetic log events
+with planted incidents, a detector skeleton that *under-detects*, and a verifier that
+fails if their detector over- or under-fires. The generator is seeded, so every run
+produces byte-identical logs and a student's "it works on my machine" is checkable.
 
 ## How I work
 

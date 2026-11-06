@@ -22,10 +22,11 @@ an attacker can actually do on a wire. My work evaluates detectors against evasi
 that remain valid at the protocol and traffic level, and reports the gap between
 feature-space and problem-space results.
 
-> **Status (2026-11):** desk-rejected by Elsevier JISA on scope grounds (September 2026 —
-> editorial prescreen, no reviewers involved), then resubmitted to *Computers & Security*
-> (Elsevier) as manuscript **COSE-D-26-05839**; no decision yet. The preprint is still
-> unposted. Rejections are reported as rejections, with the journal named.
+> **Status (2026-11):** four desk rejections, no peer review at any stage — IEEE TDSC
+> (Sept 2026), JISA (Sept 2026, out of scope), Computers & Security (Sept 2026, AI/ML
+> moratorium), Neurocomputing (Oct 2026, NEUCOM-D-26-23741). The retitled package for
+> Expert Systems with Applications is assembled and **not yet submitted**. The preprint is
+> still unposted.
 
 Related threads: detection engineering (Suricata/Zeek rules, lab traffic capture) and
 reproducibility of ML experiments (fixed seeds, versioned data, one command to

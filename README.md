@@ -120,6 +120,8 @@ and LaTeX when the problem is formal or the output is a document.
 
 - Email — **afiqandico13@gmail.com**
 - GitHub — [@afiqandico](https://github.com/afiqandico)
+- LinkedIn — [in/pangimpian](https://www.linkedin.com/in/pangimpian/)
+- X — [@itsliszt](https://x.com/itsliszt)
 - ORCID — [0009-0002-1750-9551](https://orcid.org/0009-0002-1750-9551)
 
 Open to research collaboration on adversarial ML for network detection,

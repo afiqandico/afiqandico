@@ -32,7 +32,34 @@ Related threads: detection engineering (Suricata/Zeek rules, lab traffic capture
 reproducibility of ML experiments (fixed seeds, versioned data, one command to
 regenerate every table).
 
-## Selected work
+## Published
+
+**[Kenapa Mesin Bisa Salah? / Why Machines Can Be Wrong?](https://github.com/afiqandico/kitab-stem)**
+— a tiered textbook in two parallel editions, Indonesian and English: **32 chapters** in
+six parts, **304 exercises with 304 answer keys**, from linear algebra and probability to
+adversarial machine learning, formal methods in Lean 4, and differential privacy. Each
+chapter carries four reader paths (child, undergraduate, lecturer, researcher), and every
+worked number in it comes from an actual execution rather than from memory. The book is
+authored as LaTeX source, so a clean checkout rebuilds both PDFs: `make check` is the
+quality gate (chapter count, glossary, exercise↔key mapping), `make test` runs **36
+checks** plus a sandbox compile, and a translation-parity gate keeps the two editions
+from drifting. Text **CC BY 4.0**, code MIT.
+
+**[paperlint](https://github.com/afiqandico/paperlint)** — deterministic pre-submission
+gates for manuscripts and research repositories, behind one interface, one exit code and
+one JSON report so they run in CI instead of in someone's memory. Every check in it
+started as a throwaway script written during a real submission round; between them they
+caught three cited references that did not exist, a Word file shipping literal `??` where
+cross-references should be, a figure overflowing its canvas by 91%, and a deposit record
+marked "restricted" while claiming to be publicly archived. MIT.
+
+**[rulebench](https://github.com/afiqandico/rulebench)** — Suricata rule validator and
+alert-coverage analyzer: is a ruleset internally consistent, and is it earning its keep?
+`suricata -T` proves rules *load*; it says nothing about dead rules, colliding SIDs, or
+alerts firing for signatures that no longer exist. `rulebench` answers those statically,
+with no daemon, config file, or running Suricata instance. Rust, MIT.
+
+## Research software
 
 **[anf-cyber-shell](https://github.com/afiqandico/anf-cyber-shell)** — zsh framework
 for authorised security research. One dispatcher over 16 external security CLIs
@@ -60,10 +87,6 @@ pipeline is reproducible here and asserted by `verify.py` on the committed fixtu
 figures were computed on the full institutional dataset, which is **not** in the
 repository and therefore cannot be regenerated from it.
 
-**LaTeX book project** *(in progress)* — long-form technical writing authored as LaTeX
-source rather than a word processor, so the manuscript stays diffable, version-controlled,
-and buildable from a clean checkout. No link yet; it is not finished.
-
 ## Teaching
 
 **Mini-SOC module for SMK (vocational high school), network security track** — written,
@@ -90,8 +113,8 @@ Three rules I apply to my own output, including the repos above:
   only copy of its result.
 
 Practically: Python (scikit-learn, NumPy/pandas, matplotlib), detection tooling
-(Suricata, Zeek, YARA), Go and zsh for CLI work, Docker for lab isolation, Lean 4 and
-LaTeX when the problem is formal or the output is a document.
+(Suricata, Zeek, YARA), Go, Rust and zsh for CLI work, Docker for lab isolation, Lean 4
+and LaTeX when the problem is formal or the output is a document.
 
 ## Contact
 
